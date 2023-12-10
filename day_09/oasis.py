@@ -33,7 +33,7 @@ def find_next(initial: list) -> int:
     return extrapolate(sequences)   
         
 def oasis():
-    input = read_input("/home/marc/Programming/advent_calendar/day_09/example_input.txt")
+    input = read_input("/home/marc/Programming/advent_calendar/day_09/oasis_input.txt")
     results = [find_next(sequence) for sequence in input]
     print(f"\nThe sum of the extrapolated values is {np.sum(results)}\n")
             
